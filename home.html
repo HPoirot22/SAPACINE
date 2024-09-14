@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="style/icon-frog.png">
+    <title>SapaCINE</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <nav> 
+            <ul class = navbar-nav>
+                <li id = "Página Inicial">
+                    <a id = "pgInicio" class = "navbar-nav" href="#" >Página Inicial </a>
+                </li>
+                <li id = "Sobre">
+                    <a id = "About" class = "navbar-nav" href = "sobre.html">Sobre</a>
+                </li>
+                <li id="Contato">
+                    <a class = "navbar-nav" href = "contatos.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- Seção1 -->
+    <main>
+        <h1>SapaCINE</h1>
+        <section class = "section1">
+            <input type="text" placeholder="Digite o nome filme/série, onde assistir ou gênero" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="container">
+            <span>© 2024 SapaCINE. Todos os Direitos Reservados</span>
+        </div>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
