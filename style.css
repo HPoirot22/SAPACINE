@@ -136,31 +136,6 @@ h1 {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
-
-.tendencias {
-    text-align: center;
-  }
-  
-  .cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    min-height: 0;
-    height: auto;
-  }
-  
-  .card {
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-  
-
-
 /* Estiliza o rodapé da página */
 footer {
     background-color: none;
